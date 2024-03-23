@@ -1,6 +1,6 @@
 import os
 
-class EnvInterface:
+class Env:
     @staticmethod
     def get(name: str) -> str:
         var = os.environ.get(name)

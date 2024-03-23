@@ -4,4 +4,8 @@ set -a
 
 source ./src/env/.env
 
-python ./src/main.py
+python ./main.py
+
+echo -e ""
+
+read n
